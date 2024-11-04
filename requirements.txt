@@ -1,0 +1,4 @@
+--extra-index-url https://nexaai.github.io/nexa-sdk/whl/metal
+uvicorn >= 0.31.0
+pydantic >= 2.9.2
+nexaai >= 0.0.9.0
