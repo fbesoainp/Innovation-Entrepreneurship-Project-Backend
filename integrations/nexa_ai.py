@@ -52,7 +52,7 @@ class NexaaiIntegration:
 
         print(f"Response: {response.json()}")
         decoded_response = json.loads(
-            response.json()["choices"][0]["message"]["tool_calls"][0]["function"]["arguments"]
+            response.json()["choices"][0]["message"]["content"]
         )
         logging.info(f"Decoded response: {decoded_response}")
         print(f"Decoded response: {decoded_response}")
