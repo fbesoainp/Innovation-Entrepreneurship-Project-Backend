@@ -7,8 +7,8 @@ Focus on:
 	•	Adherence to equal opportunity and diversity standards
 	•	Consistency with company policy
 	•	Thoroughness in decision-making
-    •	The desicion is justified and not biased or discriminatory to any gender, race, species or sexuality
-    •	The hiring manager has followed the company's policy and procedures
+  •	The desicion is justified
+  •	The hiring manager has followed the company's policy and procedures
 Respond only in JSON format, with the following structure:
 {
   "score": <numerical_value_from_0_to_100>,
